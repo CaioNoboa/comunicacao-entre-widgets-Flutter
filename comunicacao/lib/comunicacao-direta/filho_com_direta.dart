@@ -12,9 +12,7 @@ class FilhoComunicacaoDireta extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       number.toString(),
-      style: const TextStyle(
-        fontSize: 25,
-      ),
+      style: const TextStyle(fontSize: 25),
     );
   }
 }

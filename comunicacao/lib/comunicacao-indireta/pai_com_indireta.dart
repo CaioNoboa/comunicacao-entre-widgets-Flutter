@@ -20,15 +20,10 @@ class _PaiComunicacaoIndiretaState extends State<PaiComunicacaoIndireta> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Text(
-          number.toString(),
-          style: const TextStyle(
-            fontSize: 25,
-          ),
-        ),
         FilhoComunicacaoIndireta(
           onChange: delta,
         ),
+        Text(number.toString(), style: const TextStyle(fontSize: 25)),
       ],
     );
   }
